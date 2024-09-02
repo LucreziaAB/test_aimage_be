@@ -26,14 +26,10 @@ git clone <URL-del-repository> ```, sostituendo ```<URL-del-repository>``` con l
 1. Aprire il terminale.
 2. Navigare alla cartella del progetto con `cd <percorso-cartella>`.
 3. Eseguire `npm install` per installare le dipendenze.
-    - Dipendenze installate: Tutte le librerie e pacchetti elencati in `package.json` sotto:
-        - `"dependencies"`: Pacchetti necessari per il funzionamento dell'app in produzione.
-        - `"devDependencies"`: Pacchetti necessari solo per lo sviluppo (es. strumenti di test, linter).
 4. Avviare il progetto con `node form-backend.js`.
 5. Aprire un browser e visitare  visitare http://localhost:3001/ per vedere il progetto in esecuzione.
 
 ## Utilizzo degli endpoint esposti
-
 
 1. Scaricare, installare e aprire Postman sul computer.
 2. Cliccare su ```Collections``` nella barra laterale sinistra e su ```Import``` in alto sulla finestra che si apre.
